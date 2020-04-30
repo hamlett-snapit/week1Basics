@@ -1,14 +1,27 @@
-h1{
-    color: steelblue;
+p{
+
+}
+h1, h2, h3, h4{
+    color: steelblue; 
 }
 h5{ 
     color: crimson;
+}
+#top{
+    color: palevioletred
 }
 h6{
     color: purple;
 }
 p{
     color: darkblue;
+}
+
+#demo {
+    color: darkorange;
+}
+.onlyone{
+    color:mediumspringgreen
 }
 body{
     background-color: rgb(146, 146, 146);
