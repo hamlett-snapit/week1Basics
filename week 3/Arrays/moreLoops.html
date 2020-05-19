@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var myScores = ["R","a","m","o","n","e"];
+
+        var i = 0;
+        var j = myScores.length;
+        while( i < myScores.length){
+            console.log(myScores[i]); // prints out the score at the i location in the array.
+            i++; // adds one to the i variable everytime it loops.
+        }
+
+        for(i = 0 ; i < myScores.length; i++ ){
+            console.log("Letter at " + i + " is : " + myScores[i]);   
+        }
+
+        console.log(j);
+
+        while( j >= 0 ){
+            console.log(myScores[j]); // prints out the score at the i location in the array.
+            j--; // adds one to the i variable everytime it loops.
+        }
+
+        for(i = myScores.length - 1 ; i >= 0; i-- ){
+            console.log("Letter at " + i + " is : " + myScores[i]);   
+        }
+
+    </script>
+</body>
+</html>
