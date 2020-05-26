@@ -1,6 +1,4 @@
-var myNumber = 456.66; 
-
-
+var myNumber = 456.66;
 
 function filterInt(value) {
     if (/^[-+]?(\d+|Infinity)$/.test(value)) {
@@ -41,5 +39,19 @@ console.log(result);
 var mySecNum = '5e9';
 
 result = filterInt('Infinity');
+
+console.log(result);
+
+result = Number.MAX_VALUE;
+
+console.log(result);
+
+result = Number.MIN_VALUE;
+
+console.log(result);
+
+var age = 90;
+
+result = Number.isInteger(age);
 
 console.log(result);
